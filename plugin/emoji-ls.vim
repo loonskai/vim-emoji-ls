@@ -8,4 +8,8 @@ if executable(expand('~/lsp/plaintext-emoji-language-server/server/bin/server'))
     \  ]},
     \ 'whitelist': ['text'],
     \ })
+else
+  echohl ErrorMsg
+  echom 'Emoji language server in not accessible'
+  echohl NONE
 endif
