@@ -1,0 +1,7 @@
+```
+mkdir -p ~/lsp
+cd ~/lsp
+git clone https://github.com/loonskai/plaintext-emoji-language-server.git
+cd plaintext-emoji-language-server/server
+npm install
+```
